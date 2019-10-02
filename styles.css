@@ -1,0 +1,89 @@
+body {
+    color: grey;
+    font-family: Helvetica, sans-serif; 
+    font-weight: bold;
+}
+
+a {
+    color: black;
+    font-family: sans-serif;
+    text-decoration-line: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration-line: underline;
+}
+
+img {
+    display: flex;
+    border: 1px solid lightgrey;
+    margin: 5px;
+    width: 400px;
+    height: 400px;
+    position: relative;
+}
+
+.octodex {
+    display: flex; 
+}
+
+.octocat {
+    border: 1px solid lightgrey;    
+    border-top-style: none;
+    border-left-style: none;
+    border-right-style: none;
+    margin: 10px;
+    position: relative;
+}
+
+.authors li {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.authors img {
+    display: flex;  
+    border-style: none;
+    width: 30px;
+    height: 30px; 
+    justify-items: flex-end;
+    float: right;
+    align-items: top;
+}
+
+.authors img span {
+    padding: 0px;
+}
+
+.image-footer {
+    display: flex; 
+    justify-content: space-between;
+}
+
+ul {
+    list-style: none;
+    padding: 0px;
+}
+
+.image-caption {
+    display: flex;
+    align-items: center;
+}
+
+.image-caption span {
+    padding: 2px;
+}
+
+.image-number {
+    color: lightgrey;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.image-number::before {
+    content: "#";
+}
