@@ -2,6 +2,7 @@ body {
     color: grey;
     font-family: Helvetica, sans-serif; 
     font-weight: bold;
+    font-size: 13px;
 }
 
 a {
@@ -19,8 +20,8 @@ img {
     display: flex;
     border: 1px solid lightgrey;
     margin: 5px;
-    width: 400px;
-    height: 400px;
+    width: 300px;
+    height: 300px;
     position: relative;
 }
 
@@ -29,10 +30,7 @@ img {
 }
 
 .octocat {
-    border: 1px solid lightgrey;    
-    border-top-style: none;
-    border-left-style: none;
-    border-right-style: none;
+    border-bottom: 1px solid lightgrey;    
     margin: 10px;
     position: relative;
 }
@@ -47,7 +45,7 @@ img {
     border-width: 6px 5px 0 5px;
     border-color: #d4d2d294 transparent transparent transparent;
     right: 5px;
-    bottom: 40px;
+    bottom: 35px;
 }
 .authors li {
     display: flex;
@@ -58,8 +56,8 @@ img {
 .authors img {
     display: flex;  
     border-style: none;
-    width: 30px;
-    height: 30px; 
+    width: 25px;
+    height: 25px; 
     justify-items: flex-end;
     float: right;
     align-items: top;
@@ -85,7 +83,7 @@ ul {
 }
 
 .image-caption span {
-    padding: 2px;
+    padding: 0 2px;
 }
 
 .image-number {
