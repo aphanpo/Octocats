@@ -37,6 +37,18 @@ img {
     position: relative;
 }
 
+.octocat::after {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 6px 5px 0 5px;
+    border-color: #d4d2d294 transparent transparent transparent;
+    right: 5px;
+    bottom: 40px;
+}
 .authors li {
     display: flex;
     justify-content: flex-end;
